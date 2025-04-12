@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatórios Profissionais</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Capa de introdução -->
+  <div class="capa" id="capa">
+    <div class="conteudo-capa">
+      <h1>📊 Relatórios Profissionais</h1>
+      <p>Explore os documentos e relatórios desenvolvidos com foco em resultados.</p>
+      <button onclick="mostrarRelatorios()">Acessar Relatórios</button>
+    </div>
+  </div>
+
+  <!-- Seção de relatórios -->
+  <div class="relatorio-section" id="relatorios" style="display: none;">
+    <h2>Relatórios Disponíveis</h2>
+  
+    <!-- Relatório 1 -->
+    <div class="relatorio">
+      <a href="https://docs.google.com/document/d/18dBsrY05Msq6T7afd9fgOzjqvwDvslva/edit?usp=sharing" target="_blank">
+        <button class="btn-view">Ver Relatório 1</button>
+      </a>
+      <a href="https://drive.google.com/uc?export=download&id=18dBsrY05Msq6T7afd9fgOzjqvwDvslva" download="Relatorio1">
+        <button class="btn-download">Baixar Relatório 1</button>
+      </a>
+    </div>
+  
+    <!-- Relatório 2 -->
+    <div class="relatorio">
+      <a href="https://docs.google.com/document/d/11b32wA-gZIWwr4-e5SsFYsqBb3pVO2nx/edit?usp=sharing" target="_blank">
+        <button class="btn-view">Ver Relatório 2</button>
+      </a>
+      <a href="https://drive.google.com/uc?export=download&id=11b32wA-gZIWwr4-e5SsFYsqBb3pVO2nx" download="Relatorio2">
+        <button class="btn-download">Baixar Relatório 2</button>
+      </a>
+    </div>
+  
+    <!-- Relatório 3 -->
+    <div class="relatorio">
+      <a href="https://docs.google.com/document/d/1wMzBgSN82nKeBgKLSYJ3U4N_x6zkVSeW/edit?usp=sharing" target="_blank">
+        <button class="btn-view">Ver Relatório 3</button>
+      </a>
+      <a href="https://drive.google.com/uc?export=download&id=1wMzBgSN82nKeBgKLSYJ3U4N_x6zkVSeW" download="Relatorio3">
+        <button class="btn-download">Baixar Relatório 3</button>
+      </a>
+    </div>
+  
+    <!-- Relatório 4 -->
+    <div class="relatorio">
+      <a href="https://docs.google.com/document/d/18fnuUIyfdyV_fQ8gLa4RMidHDOO292BU/edit?usp=sharing" target="_blank">
+        <button class="btn-view">Ver Relatório 4</button>
+      </a>
+      <a href="https://drive.google.com/uc?export=download&id=18fnuUIyfdyV_fQ8gLa4RMidHDOO292BU" download="Relatorio4">
+        <button class="btn-download">Baixar Relatório 4</button>
+      </a>
+    </div>
+  </div>  
+
+  <script>
+    function mostrarRelatorios() {
+      const capa = document.getElementById('capa');
+      const relatorios = document.getElementById('relatorios');
+      capa.style.display = 'none';
+      relatorios.style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
